@@ -8,3 +8,8 @@
   flex-direction: column;
   text-decoration: none;
 }
+nav{
+  float: right;
+  padding: 15px;
+  text-decoration: none;
+}
