@@ -7,6 +7,9 @@
 <h2> <%=note.title%> </h2>
 
 <%= link_to "View Postit", note_path(note.id)%>
+<%= link_to "Edit", edit_note_path(note.id)%>
+<%= link_to "Delete", note_path(note), method: :delete%>
+
 </div>
 <%end%>
 </div>

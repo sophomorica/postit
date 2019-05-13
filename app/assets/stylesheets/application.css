@@ -2,14 +2,21 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  background: rgba(194, 194, 141, 0.856);
+  border: solid green; 
 }
 .notes{
   display:flex;
   flex-direction: column;
   text-decoration: none;
+  /* background: rgb(102, 102, 158); */
 }
 nav{
   float: right;
   padding: 15px;
+
+}
+a{
   text-decoration: none;
+  
 }
