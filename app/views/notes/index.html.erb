@@ -1,8 +1,13 @@
 <h1>Post-it Notes</h1>
 <hr />
+
 <div class = "container">
 <%@notes.each do |note|%>
+<div class = "notes">
 <h2> <%=note.title%> </h2>
+
+<%= link_to "View Postit", note_path(note.id)%>
+</div>
 <%end%>
 </div>
 <%= link_to "New Note", new_note_path %>
