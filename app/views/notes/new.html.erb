@@ -1,13 +1,18 @@
 <h1>Make a <em>Note</em></h1>
 <%= form_for @note do |f|%>
+<div class = new-blog-container>
+<div class =new-blog-container-fields>
   <%= f.label :title %>
   <%= f.text_field :title %>
-
+</div>
+<div class =new-blog-container-fields>
 <%= f.label :author %>
-<%= f.text_field :author %>
+<%= f.text_field :author %></div>
 
+<div class =new-blog-container-fields>
 <%= f.label :body %>
-<%= f.text_field :body %>
+<%= f.text_field :body %></div>
 <%= f.submit%>
+</div>
 
 <%end%>

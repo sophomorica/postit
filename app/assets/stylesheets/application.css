@@ -5,6 +5,17 @@
   background: rgba(255, 255, 93, 0.856);
   border: solid green; 
 }
+h1{
+  text-align: center;
+}
+.new-blog-container{
+  display: flex;
+  flex-direction: column;
+}
+.new-blog-container-field{
+  display: flex;
+
+}
 .notes{
   display:flex;
   flex-direction: column;
@@ -12,8 +23,17 @@
   /* background: rgb(102, 102, 158); */
 }
 nav{
-  float: right;
+  /* float: right;
   padding: 15px;
+  display: flex;
+  justify-content: space-evenly; */
+  color: rgb(253, 253, 253);
+  background-color: rgba(63, 71, 78, 0.575);
+  padding: 20px 30px;
+  display: flex;
+justify-content: space-evenly;
+/* justify-content: flex-end; */
+text-decoration: none;
 
 }
 a{
